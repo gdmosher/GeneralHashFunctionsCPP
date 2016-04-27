@@ -10,6 +10,13 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneralHashFunctions.cpp" />
+    <ClCompile Include="HashTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneralHashFunctions.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9E980871-193A-4D49-A097-0AA01CB8EA9B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -77,13 +84,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\GeneralHashFunctions.cpp" />
-    <ClCompile Include="..\..\HashTest.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\GeneralHashFunctions.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\GeneralHashFunctions.cpp">
+    <ClCompile Include="GeneralHashFunctions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\HashTest.cpp">
+    <ClCompile Include="HashTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\GeneralHashFunctions.h">
+    <ClInclude Include="GeneralHashFunctions.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
